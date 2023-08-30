@@ -1,0 +1,88 @@
+.blink {
+    animation: blink 1s infinite;
+    color: #c62028;
+  }
+  
+  body {
+    background-color: #b1c78d;
+  }
+  
+  header {
+    background-image: url("./img/HDTC.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 80%;
+    border: 0;
+  }
+  
+  h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38vh;
+    font-size: 45px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4b796c;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #6f905ee3;
+  }
+  
+  main {
+    background-image: url("./img/BDTC.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  section {
+    margin-bottom:auto;
+  }
+  
+  h2 {
+    margin-top:auto;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #c2e0ab;
+    color: #000000;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  text-align: center;
+  }
+  
+  label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+  

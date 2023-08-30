@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  img {
+  list-style-type: none;
+  background-color: #a5ff4d;
+  padding: 8px;
+  color: white;
+}
+  li::before {
+    content: "•";
+    color: #4CAF50;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  body {
+      background-image: url("./img/BDCV.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      border: 0;
+    }

@@ -1,0 +1,117 @@
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.blink {
+    animation: blink 1s infinite;
+    color: #c62028;
+}
+
+body{
+  background-color: #b1c78d;
+}
+h1 {
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 38vh;
+font-size: 45px;
+}
+.h1-text {
+text-align: center;
+font-size: 80px;
+}
+header {
+background-image: url("./img/HDTC.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 80%;
+border: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.teacher {
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.teacher img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.teacher h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.teacher h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.teacher h5 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+.teacher p {
+    margin: 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.teacher .contact {
+    margin-top: 10px;
+}
+
+.teacher .contact a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #777;
+    text-decoration: none;
+}
+
+.teacher .contact a:hover {
+    text-decoration: underline;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #4b796c;
+overflow: hidden;
+}
+
+nav ul li {
+float: left;
+}
+
+nav ul li a {
+display: block;
+color: white;
+padding: 20px 20px;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+background-color: #6f905ee3;
+}
+.wrapper {
+background-image: url("./img/BDLH.png ");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}

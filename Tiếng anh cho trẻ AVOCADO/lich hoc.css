@@ -1,0 +1,75 @@
+#lich-hoc {
+    margin-top: 20px;
+  }
+  @keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+.blink {
+    animation: blink 1s infinite;
+}
+header {
+  background-color:#d2ffc7;
+  color: #d84343;
+  padding: 20px;
+  text-align: center;
+  font-size: 55px;
+}
+
+body {
+background-color: #d2ffc7;
+}
+header h1 {
+  font-size: 35px;
+} 
+  #lich-hoc h2 {
+    font-size: 25px;
+    text-align: center;
+    background-color: #81b874;
+    color: #fff;
+  }
+  
+  #lich-hoc table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #lich-hoc th,
+  #lich-hoc td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #cccccc;
+  }
+  
+  #lich-hoc th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #lich-hoc tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #lich-hoc tr:hover {
+    background-color: #e3e3e3;
+  }
+  footer {
+    background-color: #81b874;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  footer b {
+    font-weight: bold;
+  }
